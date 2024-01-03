@@ -5,7 +5,7 @@ import Devops from './components/Devops'
 import Graphics from './components/Graphics'
 import DigitalProduct from './components/DigitalProduct'
 
-export const metadata = genPageMetadata({ title: 'Tags', description: 'Things I blog about' })
+export const metadata = genPageMetadata({ title: 'Tech', description: 'Things I use for work' })
 
 export default async function Page() {
   return (
