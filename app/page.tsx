@@ -1,9 +1,23 @@
 import { sortPosts, allCoreContent } from 'pliny/utils/contentlayer'
 import { allBlogs } from 'contentlayer/generated'
+import { Authors, allAuthors } from 'contentlayer/generated'
+import { MDXLayoutRenderer } from 'pliny/mdx-components'
+import AuthorLayout from '@/layouts/AuthorLayout'
+import { coreContent } from 'pliny/utils/contentlayer'
 import Main from './Main'
 
 export default async function Page() {
+  const author = allAuthors.find((p) => p.slug === 'default') as Authors
+  const mainContent = coreContent(author)
+
   const sortedPosts = sortPosts(allBlogs)
   const posts = allCoreContent(sortedPosts)
-  return <Main posts={posts} />
+  return (
+    <>
+      <AuthorLayout content={mainContent}>
+        <MDXLayoutRenderer code={author.body.code} />
+      </AuthorLayout>
+      <Main posts={posts} />
+    </>
+  )
 }

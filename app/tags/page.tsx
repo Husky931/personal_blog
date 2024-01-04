@@ -13,7 +13,7 @@ export default async function Page() {
       <Frontend />
       <Backend />
       <Devops />
-      <DigitalProduct />
+      {/* <DigitalProduct /> */}
       <Graphics />
     </>
   )
