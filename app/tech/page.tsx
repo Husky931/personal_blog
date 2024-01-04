@@ -10,6 +10,7 @@ export const metadata = genPageMetadata({ title: 'Tech', description: 'Things I 
 export default async function Page() {
   return (
     <>
+      <div>All the technologies i have been involved and worked professionally over the years.</div>
       <Frontend />
       <Backend />
       <Devops />
