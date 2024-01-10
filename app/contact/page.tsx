@@ -11,7 +11,10 @@ export default function Page() {
           {/* <!-- First Row --> */}
           <div className="-mx-3 mb-6 flex flex-wrap">
             <div className="mb-6 w-full px-3 md:mb-0 md:w-1/2">
-              <label className="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700">
+              <label
+                className="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700"
+                htmlFor="first-name"
+              >
                 First Name
               </label>
               <input
@@ -22,7 +25,10 @@ export default function Page() {
               />
             </div>
             <div className="w-full px-3 md:w-1/2">
-              <label className="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700">
+              <label
+                className="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700"
+                htmlFor="last-name"
+              >
                 Last Name
               </label>
               <input
@@ -37,7 +43,10 @@ export default function Page() {
           {/* <!-- Second Row --> */}
           <div className="-mx-3 mb-6 flex flex-wrap">
             <div className="w-full px-3">
-              <label className="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700">
+              <label
+                className="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700"
+                htmlFor="email"
+              >
                 Email
               </label>
               <input
@@ -52,7 +61,10 @@ export default function Page() {
           {/* <!-- Third Row --> */}
           <div className="-mx-3 mb-6 flex flex-wrap">
             <div className="w-full px-3">
-              <label className="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700">
+              <label
+                className="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700"
+                htmlFor="message"
+              >
                 Message
               </label>
               <textarea

@@ -18,7 +18,7 @@ export default function DigitalProduct() {
         <div className="flex max-w-lg flex-wrap">
           {productTags.map((tech) => {
             return (
-              <div className="mb-2 mr-5 mt-2">
+              <div className="mb-2 mr-5 mt-2" key={tech}>
                 <div className="mr-3 text-sm font-medium uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
                   {tech}
                 </div>
