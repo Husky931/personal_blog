@@ -1,13 +1,24 @@
 export default function Devops() {
   const devopsTags = [
-    'nextJS',
-    'react',
-    'tailwindcss',
-    'typescript',
-    'vercel',
-    'vite',
-    'webdev',
-    'yarn',
+    'aws',
+    'ec2',
+    'lightsail',
+    'lambda',
+    'SNS',
+    'amazon api gateway',
+    's3',
+    'elastic IP',
+    'reserved instances',
+    'ci/cd',
+    'git',
+    'pm2',
+    'ssh',
+    'nginx',
+    'docker',
+    'hosting',
+    'deployment',
+    'fail2ban',
+    'artilery',
   ]
 
   return (

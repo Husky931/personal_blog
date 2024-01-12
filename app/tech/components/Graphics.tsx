@@ -1,4 +1,4 @@
-export default function Graphics() {
+export default function Others() {
   const graphicsTags = [
     'nextJS',
     'react',

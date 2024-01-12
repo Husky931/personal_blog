@@ -1,13 +1,13 @@
 export default function Backend() {
   const backendTags = [
-    'nextJS',
-    'react',
-    'tailwindcss',
-    'typescript',
-    'vercel',
-    'vite',
-    'webdev',
-    'yarn',
+    'node',
+    'express',
+    'postgres',
+    'sqlite',
+    'strapi',
+    'python',
+    'third-party APIs',
+    'backend as service',
   ]
 
   return (

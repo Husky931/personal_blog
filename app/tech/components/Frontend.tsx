@@ -2,12 +2,14 @@ export default function Frontend() {
   const frontendTags = [
     'nextJS',
     'react',
-    'tailwindcss',
+    'svelte',
+    'react-native',
+    'javascript',
     'typescript',
-    'vercel',
-    'vite',
-    'webdev',
-    'yarn',
+    'css',
+    'tailwind',
+    'design system',
+    'responsive design',
   ]
 
   return (
