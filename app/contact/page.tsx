@@ -5,8 +5,11 @@ export const metadata = genPageMetadata({ title: 'Contact' })
 export default function Page() {
   return (
     <>
-      <div>Have a question? Get in touch</div>
-      <div className="container mx-auto mt-8 p-8">
+      <div className="mt-4 text-center">
+        Have a question? Drop me a message and i'll get back to you
+      </div>
+      <div className="container mx-auto p-8">
+        {/* <div></div> */}
         <form className="mx-auto w-full max-w-lg">
           {/* <!-- First Row --> */}
           <div className="-mx-3 mb-6 flex flex-wrap">
